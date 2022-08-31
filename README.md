@@ -2,7 +2,7 @@
 
 import.ply() Narimane Chatar 26/11/2021
 
-Automatically import all the ply in ASCII format files cin your working directory as 'Large mesh3d'
+Automatically import all the ply in ASCII format files in your working directory as 'Large mesh3d'
 
 ONLY SUPPORT PLY ASCII FILE FORMAT
 
@@ -10,7 +10,7 @@ ONLY SUPPORT PLY ASCII FILE FORMAT
           Error in read.ply(file = plylist[i], ShowSpecimen = FALSE) : 
           PLY file is not ASCII format: format = binary_little_endian1.0
           
-Require geomorph package, if not installed the function will donwload it and call the geomorph library:
+Requires geomorph package, if not installed the function will donwload it and call the required librairies:
 
           > import.ply()
           Le chargement a nécessité le package : geomorph
